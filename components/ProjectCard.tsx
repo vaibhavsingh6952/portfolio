@@ -31,8 +31,8 @@ export default function ProjectCard({
     return (
         <div className="mb-32">
             <article className="max-w-2xl mx-auto">
-                <p className="text-zinc-500 text-xl">{year}</p>
-                <h3 className="text-2xl md:text-3xl mt-1">{title}. {description}</h3>
+                <p className="text-zinc-500 text-xl max-md:text-lg">{year}</p>
+                <h3 className="text-xl md:text-3xl mt-1">{title}. {description}</h3>
 
                 <div className="mt-8">
                     {link && (

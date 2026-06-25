@@ -8,7 +8,7 @@ export default function Home() {
       <Hero />
       <Projects />
       <Before />
-      <footer className="max-w-2xl mx-auto mt-40 pb-20 text-gray-400 text-xl">
+      <footer className="max-w-2xl mx-auto mt-40 pb-20 text-gray-400 text-xl max-md:text-lg">
         feel free to talk ᝯ.ᐟ 
       </footer>
     </main>

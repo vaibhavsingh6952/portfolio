@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 export default function Projects() {
     return (
         <section className="mt-40">
-            <h1 className="max-w-2xl mx-auto text-2xl text-gray-500 mb-12">Recent Projects</h1>
+            <h1 className="max-w-2xl mx-auto text-2xl max-md:text-xl text-gray-500 mb-12">Recent Projects</h1>
 
             <ProjectCard
                 year="2025 to present"
@@ -15,8 +15,8 @@ export default function Projects() {
                 role="Co-Founder, Product Engineer"
                 outcomes={[
                     "2,000+ waitlist signups before public launch",
-                    "Built full mobile app and marketing site from zero: auth, feeds, real-time updates, content moderation",
-                    "Designed app core algorithm and personalized feed from scratch",
+                    "Built mobile app, designed waitlist website and handle marketing",
+                    "Designed core app algorithm and UI flow",
                 ]}
                 gallery={{
                     type: "phone",
@@ -33,8 +33,8 @@ export default function Projects() {
                 title="Structra"
                 description="SaaS platform for Indian interior design studios to manage projects, automate GST invoices, and streamline vendor purchases."
                 link="structra-roan.vercel.app"
-                status="Currently researching market fit and an underserved wedge before deciding on public launch."
-                tools={["Next.js", "Tailwind CSS", "Supabase", "Prisma", "Razorpay"]}
+                status="Currently researching market fit and an underserved segment"
+                tools={["Next.js", "Tailwind CSS", "Prisma", "Razorpay"]}
                 role="Founder, Product Engineer"
                 outcomes={[
                     "Built full SaaS platform: dashboard, auth, Razorpay payments, and multi-tier subscription pricing",
@@ -60,7 +60,7 @@ export default function Projects() {
                 description="Turns content into action. Share reels, videos, or posts and Clariwo extracts key ideas into a structured plan tailored to your context."
                 link="clariwo.vercel.app"
                 status="Built from a problem I ran into myself. Currently in waitlist phase while working on initial distribution."
-                tools={["Expo React Native", "Supabase", "React Query", "NativeWind"]}
+                tools={["Expo React Native", "AI pipeline", "NativeWind"]}
                 role="Founder, Product Engineer"
                 outcomes={[
                     "Designed and built AI pipeline that extracts structured plans from social content",
@@ -80,14 +80,13 @@ export default function Projects() {
             <ProjectCard
                 year="2026"
                 title="US Warrant Search"
-                description="Public warrant lookup across every US county and state. Aggregates data currently scattered across thousands of sheriff and court websites into a single searchable index."
+                description="Public warrant lookup across every US county and state. Aggregates data currently scattered across thousands of government websites into a single searchable index."
                 link="warrantsearchus.com"
                 status="A search-driven content product targeting recurring organic demand around public records."
                 tools={["Next.js", "Python", "PostgreSQL"]}
                 role="Builder"
                 outcomes={[
                     "Mapping and collecting warrant data across 3,000+ US counties",
-                    "Building scraper pipeline and data normalization layer",
                     "Designing county-browse and search UX",
                 ]}
                 gallery={{

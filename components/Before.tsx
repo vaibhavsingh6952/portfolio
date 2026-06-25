@@ -45,7 +45,7 @@ function BeforeEntry({ company, companyUrl, description, role, date, outcomes }:
 export default function Before() {
     return (
         <section className="mt-40">
-            <h1 className="max-w-2xl mx-auto text-2xl text-gray-500 mb-12">Before</h1>
+            <h1 className="max-w-2xl mx-auto text-2xl max-md:text-xl text-gray-500 mb-12">Before</h1>
 
             <BeforeEntry
                 company="MNNIT Allahabad"
