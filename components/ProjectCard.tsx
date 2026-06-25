@@ -32,11 +32,11 @@ export default function ProjectCard({
         <div className="mb-32">
             <article className="max-w-2xl mx-auto">
                 <p className="text-zinc-500 text-xl">{year}</p>
-                <h3 className="text-3xl mt-1">{title}. {description}</h3>
+                <h3 className="text-2xl md:text-3xl mt-1">{title}. {description}</h3>
 
                 <div className="mt-8">
                     {link && (
-                        <div className="grid grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
+                        <div className="flex flex-col md:grid md:grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
                             <span>Link</span>
                             <a
                                 href={`https://${link}`}
@@ -48,19 +48,19 @@ export default function ProjectCard({
                             </a>
                         </div>
                     )}
-                    <div className="grid grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
+                    <div className="flex flex-col md:grid md:grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
                         <span>Status</span>
                         <span>{status}</span>
                     </div>
-                    <div className="grid grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
+                    <div className="flex flex-col md:grid md:grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
                         <span>Tools</span>
                         <span>{tools.join(", ")}</span>
                     </div>
-                    <div className="grid grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
+                    <div className="flex flex-col md:grid md:grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
                         <span>Role</span>
                         <span>{role}</span>
                     </div>
-                    <div className="grid grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
+                    <div className="flex flex-col md:grid md:grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
                         <span>Outcomes</span>
                         <ul className="list-disc pl-5 space-y-2">
                             {outcomes.map((outcome) => (
@@ -73,7 +73,7 @@ export default function ProjectCard({
 
             <div className="mt-12">
                 {gallery.type === "phone" ? (
-                    <div className="grid grid-cols-3 gap-4 max-w-screen-2xl mx-auto px-6">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 max-w-screen-2xl mx-auto md:px-6">
                         {gallery.images.map((image, i) => (
                             <div key={i} className="bg-gray-200 rounded-xl p-6">
                                 <img
@@ -85,10 +85,10 @@ export default function ProjectCard({
                         ))}
                     </div>
                 ) : (
-                    <div className="space-y-4 max-w-screen-2xl mx-auto px-4">
+                    <div className="space-y-4 max-w-screen-2xl mx-auto px-0 md:px-4">
                         {gallery.rows.map((row, i) =>
                             row.layout === "full" ? (
-                                <div key={i} className="bg-gray-200 rounded-xl p-8">
+                                <div key={i} className="bg-gray-200 rounded-xl p-2 md:p-8">
                                     <img
                                         src={row.images[0]}
                                         alt={`${title} screenshot ${i + 1}`}
@@ -96,9 +96,9 @@ export default function ProjectCard({
                                     />
                                 </div>
                             ) : (
-                                <div key={i} className="flex gap-4">
+                                <div key={i} className="flex flex-col md:flex-row gap-4">
                                     {row.images.map((image, j) => (
-                                        <div key={j} className="bg-gray-200 rounded-xl p-8 flex-1">
+                                        <div key={j} className="bg-gray-200 rounded-xl p-2 md:p-8 flex-1">
                                             <img
                                                 src={image}
                                                 alt={`${title} screenshot ${i + 1}-${j + 1}`}

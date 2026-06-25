@@ -11,7 +11,7 @@ function BeforeEntry({ company, companyUrl, description, role, date, outcomes }:
     return (
         <div className="mb-16">
             <div className="max-w-2xl mx-auto">
-                <div className="grid grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
+                <div className="flex flex-col md:grid md:grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
                     <span className="text-zinc-500"></span>
                     <div>
                         <a
@@ -25,11 +25,11 @@ function BeforeEntry({ company, companyUrl, description, role, date, outcomes }:
                         <span className="text-zinc-600">. {description}</span>
                     </div>
                 </div>
-                <div className="grid grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
+                <div className="flex flex-col md:grid md:grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
                     <span className="text-zinc-500">{role}</span>
                     <span>{date}</span>
                 </div>
-                <div className="grid grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
+                <div className="flex flex-col md:grid md:grid-cols-[140px_1fr] border-t border-zinc-300 py-4">
                     <span className="text-zinc-500"></span>
                     <ul className="list-disc pl-5 space-y-2">
                         {outcomes.map((outcome) => (
@@ -84,7 +84,7 @@ export default function Before() {
 
             <BeforeEntry
                 company="Viteach, VIT"
-                companyUrl="https://vit.ac.in"
+                companyUrl="https://viteach.in/"
                 description="VIT's initiative to tutor underprivileged high school students in basic computer science and math concepts."
                 role="Tutor"
                 date="Sep 2024 – Jul 2025"
