@@ -12,7 +12,7 @@ export default function Projects() {
                 link="hoode.in"
                 status="Holding launch until the waitlist hits a threshold sufficient for a strong early experience."
                 tools={["Expo React Native", "Next.js", "Convex", "Cloudflare R2"]}
-                role="Co-Founder, Product Engineer"
+                role="Co-Founder, Product Developer"
                 outcomes={[
                     "2,000+ waitlist signups before public launch",
                     "Built mobile app, designed waitlist website and handle marketing",
@@ -34,8 +34,8 @@ export default function Projects() {
                 description="SaaS platform for Indian interior design studios to manage projects, automate GST invoices, and streamline vendor purchases."
                 link="structra-roan.vercel.app"
                 status="Currently researching market fit and an underserved segment"
-                tools={["Next.js", "Tailwind CSS", "Prisma", "Razorpay"]}
-                role="Founder, Product Engineer"
+                tools={["Next.js", "Tailwind CSS", "Prisma", "Razorpay", "Supabase"]}
+                role="Product Developer"
                 outcomes={[
                     "Built full SaaS platform: dashboard, auth, Razorpay payments, and multi-tier subscription pricing",
                     "Implemented India-first workflows: GST invoice generation and WhatsApp-ready client portals",
@@ -60,8 +60,8 @@ export default function Projects() {
                 description="Turns content into action. Share reels, videos, or posts and Clariwo extracts key ideas into a structured plan tailored to your context."
                 link="clariwo.vercel.app"
                 status="Built from a problem I ran into myself. Currently in waitlist phase while working on initial distribution."
-                tools={["Expo React Native", "AI pipeline", "NativeWind"]}
-                role="Founder, Product Engineer"
+                tools={["Expo React Native", "Astro", "AI pipeline", "Supabase"]}
+                role="Product Developer"
                 outcomes={[
                     "Designed and built AI pipeline that extracts structured plans from social content",
                     "Built onboarding, auth, and context-setting flow",
@@ -83,10 +83,10 @@ export default function Projects() {
                 description="Public warrant lookup across every US county and state. Aggregates data currently scattered across thousands of government websites into a single searchable index."
                 link="warrantsearchus.com"
                 status="A search-driven content product targeting recurring organic demand around public records."
-                tools={["Next.js", "Python", "PostgreSQL"]}
-                role="Builder"
+                tools={["Astro", "Python"]}
+                role="Product Developer"
                 outcomes={[
-                    "Mapping and collecting warrant data across 3,000+ US counties",
+                    "Mapping and collecting verified warrant data across 3,000+ US counties",
                     "Designing county-browse and search UX",
                 ]}
                 gallery={{

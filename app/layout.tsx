@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
+import { Analytics } from "@vercel/analytics/next"
 
 const sora = Sora({
   subsets: ["latin"],
@@ -32,6 +33,7 @@ export default function RootLayout({
           </div>
         </div>
         <SmoothScroll />
+        <Analytics/>
       </body>
     </html>
   );
