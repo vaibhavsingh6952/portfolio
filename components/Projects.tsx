@@ -29,27 +29,23 @@ export default function Projects() {
             />
 
             <ProjectCard
-                year="2025"
-                title="Structra"
-                description="SaaS platform for Indian interior design studios to manage projects, automate GST invoices, and streamline vendor purchases."
-                link="structra-roan.vercel.app"
-                status="Currently researching market fit and an underserved segment"
-                tools={["Next.js", "Tailwind CSS", "Prisma", "Razorpay", "Supabase"]}
+                year="2026"
+                title="US Warrant Search"
+                description="Public warrant lookup across every US county and state. Aggregates data currently scattered across thousands of government websites into a single searchable index."
+                link="warrantsearchus.com"
+                status="A search-driven content product targeting recurring organic demand around public records."
+                tools={["Astro", "Python"]}
                 role="Product Developer"
                 outcomes={[
-                    "Built full SaaS platform: dashboard, auth, Razorpay payments, and multi-tier subscription pricing",
-                    "Implemented India-first workflows: GST invoice generation and WhatsApp-ready client portals",
-                    "Researching competitive landscape and studio demand before public launch",
+                    "Mapping and collecting verified warrant data across 3,000+ US counties",
+                    "Designing county-browse and search UX",
                 ]}
                 gallery={{
                     type: "desktop",
                     rows: [
-                        { layout: "full", images: ["/projects/structra/s1.png"] },
-                        { layout: "full", images: ["/projects/structra/s2.png"] },
-                        { layout: "full", images: ["/projects/structra/s3.png"] },
-                        { layout: "half", images: ["/projects/structra/s4.png", "/projects/structra/s5.png"] },
-                        { layout: "half", images: ["/projects/structra/s6.png", "/projects/structra/s7.png"] },
-                        { layout: "full", images: ["/projects/structra/s8.png"] },
+                        { layout: "full", images: ["/projects/warrantsearchus/s1.png"] },
+                        { layout: "full", images: ["/projects/warrantsearchus/s2.png"] },
+                        { layout: "full", images: ["/projects/warrantsearchus/s3.png"] },
                     ],
                 }}
             />
@@ -78,23 +74,27 @@ export default function Projects() {
             />
 
             <ProjectCard
-                year="2026"
-                title="US Warrant Search"
-                description="Public warrant lookup across every US county and state. Aggregates data currently scattered across thousands of government websites into a single searchable index."
-                link="warrantsearchus.com"
-                status="A search-driven content product targeting recurring organic demand around public records."
-                tools={["Astro", "Python"]}
+                year="2025"
+                title="Structra"
+                description="SaaS platform for Indian interior design studios to manage projects, automate GST invoices, and streamline vendor purchases."
+                link="structra-roan.vercel.app"
+                status="Currently researching market fit and an underserved segment"
+                tools={["Next.js", "Tailwind CSS", "Prisma", "Razorpay", "Supabase"]}
                 role="Product Developer"
                 outcomes={[
-                    "Mapping and collecting verified warrant data across 3,000+ US counties",
-                    "Designing county-browse and search UX",
+                    "Built full SaaS platform: dashboard, auth, Razorpay payments, and multi-tier subscription pricing",
+                    "Implemented India-first workflows: GST invoice generation and WhatsApp-ready client portals",
+                    "Researching competitive landscape and studio demand before public launch",
                 ]}
                 gallery={{
                     type: "desktop",
                     rows: [
-                        { layout: "full", images: ["/projects/warrantsearchus/s1.png"] },
-                        { layout: "full", images: ["/projects/warrantsearchus/s2.png"] },
-                        { layout: "full", images: ["/projects/warrantsearchus/s3.png"] },
+                        { layout: "full", images: ["/projects/structra/s1.png"] },
+                        { layout: "full", images: ["/projects/structra/s2.png"] },
+                        { layout: "full", images: ["/projects/structra/s3.png"] },
+                        { layout: "half", images: ["/projects/structra/s4.png", "/projects/structra/s5.png"] },
+                        { layout: "half", images: ["/projects/structra/s6.png", "/projects/structra/s7.png"] },
+                        { layout: "full", images: ["/projects/structra/s8.png"] },
                     ],
                 }}
             />
