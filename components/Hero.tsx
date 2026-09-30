@@ -29,11 +29,12 @@ export default function Hero() {
                 </div>
                 <h1 className="text-xl">Singh Takuli</h1>
             </div>
-
+            <p className="text-gray-400 text-xl max-md:text-lg">welcooome to my space, hihi :)</p>
             <p className="mt-4 text-3xl max-md:text-xl">
-                Product Developer building products from 0→1. Across consumer applications and AI systems, I've built full-stack products and delivered production-ready experiences. I focus on turning user problems into intuitive, high-impact solutions by owning everything from product definition and user experience to launch and iteration.<span className="text-gray-500"> Currently building Hoode and pursuing Computer Science at VIT.</span>
+                Product developer building products from 0→1. I make simple products and turn ideas into things people actually love. I care about how a product feels, from the first idea to the production. Lemme thrash your next big idea and win over users. <span className="text-gray-500">Currently building Hoode and pursuing Computer Science at VIT.</span>
             </p>
             <div className="flex gap-3 mt-8">
+                <a href="https://leetcode.com/u/vaibhavsingh6952" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">Leetcode</a>
                 <a href="https://github.com/vaibhavsingh6952" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">GitHub</a>
                 <a href="https://www.linkedin.com/in/vaibhavsingh6952/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">LinkedIn</a>
                 <a href="mailto:vaibhavsingh6952@gmail.com" className="hover:text-gray-400 transition-colors">Mail</a>

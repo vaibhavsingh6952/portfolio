@@ -9,7 +9,7 @@ export default function Home() {
       <Projects />
       <Before />
       <footer className="max-w-2xl mx-auto mt-40 pb-20 text-gray-400 text-xl max-md:text-lg">
-        say hi, for the love of products ᝯ.ᐟ
+        you have excellent scrolling stamina.                     
       </footer>
     </main>
   );

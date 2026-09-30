@@ -37,8 +37,9 @@ export default function Projects() {
                 tools={["Astro", "Python"]}
                 role="Product Developer"
                 outcomes={[
-                    "Mapping and collecting verified warrant data across 3,000+ US counties",
-                    "Designing county-browse and search UX",
+                    "Reached over 1K clicks and 30K+ impressions within the first week of deployment",
+                    "Mapping and collected verified warrant data across 3,000+ US counties",
+                    "Established an affiliate partnership with USLegalForms.com"
                 ]}
                 gallery={{
                     type: "desktop",
@@ -46,6 +47,7 @@ export default function Projects() {
                         { layout: "full", images: ["/projects/warrantsearchus/s1.png"] },
                         { layout: "full", images: ["/projects/warrantsearchus/s2.png"] },
                         { layout: "full", images: ["/projects/warrantsearchus/s3.png"] },
+                        { layout: "full", images: ["/projects/warrantsearchus/s4.png"] },
                     ],
                 }}
             />
