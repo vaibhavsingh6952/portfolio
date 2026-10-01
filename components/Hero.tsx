@@ -6,7 +6,7 @@ export default function Hero() {
             <div className="hidden md:flex items-baseline gap-2">
                 <h1 className="text-3xl">Vaibhav Singh Takuli</h1>
                 <Image 
-                    src="/pfp.jpg"
+                    src="/pfp.webp"
                     alt="Profile"
                     width={180}
                     height={180}
@@ -19,7 +19,7 @@ export default function Hero() {
                 <div className="flex items-baseline gap-3">
                     <h1 className="text-xl">Vaibhav</h1>
                     <Image 
-                        src="/pfp.jpg"
+                        src="/pfp.webp"
                         alt="Profile"
                         width={140}
                         height={140}
