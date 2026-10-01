@@ -37,7 +37,7 @@ export default function Hero() {
                 <a href="https://leetcode.com/u/vaibhavsingh6952" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">Leetcode</a>
                 <a href="https://github.com/vaibhavsingh6952" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">GitHub</a>
                 <a href="https://www.linkedin.com/in/vaibhavsingh6952/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">LinkedIn</a>
-                <a href="mailto:vaibhavsingh6952@gmail.com" className="hover:text-gray-400 transition-colors">Mail</a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vaibhavsingh6952@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">Mail</a>
             </div>
         </section>
     );
